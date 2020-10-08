@@ -6,17 +6,6 @@ command -v ssh > /dev/null 2>&1 || { echo >&2 "Openssh is not installed ! Instal
 command -v unzip > /dev/null 2>&1 || { echo >&2 "Unzip is not installed ! Install it"; exit 1; }
 }
 
-### LOGO ###
-Logo = """
-
-░░░░░▄▄▀▀▀▀▀▀▀▀▀▄▄░░░░░
-░░░░█░░░░░░░░░░░░░█░░░░
-░░░█░░░░░░░░░░▄▄▄░░█░░░
-░░░█░░▄▄▄░░▄░░███░░█░░░
-░░░▄█░▄░░░▀▀▀░░░▄░█▄░░░
-░░░█░░▀█▀█▀█▀█▀█▀░░█░░░
-░░░▄██▄▄▀▀▀▀▀▀▀▄▄██▄░░░
-░▄█░█▀▀█▀▀▀█▀▀▀█▀▀█░█▄░
 banner() {
 clear
 printf " \e[33;1m ______      _     _     _               \e[0m\n"
